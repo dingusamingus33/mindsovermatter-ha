@@ -3,7 +3,1160 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Minds Over Matter — Healthcare services advisory</title><!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Minds Over Matter — Healthcare services advisory</title>
+<meta name="description" content="Minds Over Matter is a boutique healthcare services advisory. Diligence, strategy, advisory, and experience &amp; outcomes work for operators, investors, and leaders." />
+<meta name="theme-color" content="#F2EEE3" />
+<link rel="canonical" href="https://mindsovermatter.io/" />
+
+<!-- Open Graph / social previews -->
+<meta property="og:title" content="Minds Over Matter — Healthcare services advisory" />
+<meta property="og:description" content="Clear thinking for complex healthcare decisions. Diligence, strategy, and advisory for healthcare services." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://mindsovermatter.io/" />
+<meta property="og:image" content="https://mindsovermatter.io/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:site_name" content="Minds Over Matter" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Minds Over Matter — Healthcare services advisory" />
+<meta name="twitter:description" content="Clear thinking for complex healthcare decisions. Diligence, strategy, and advisory for healthcare services." />
+<meta name="twitter:image" content="https://mindsovermatter.io/og-image.png" />
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="alternate icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+<!-- Structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Minds Over Matter",
+  "url": "https://mindsovermatter.io",
+  "description": "Healthcare services advisory — diligence, strategy, and advisory for operators, investors, and leaders.",
+  "email": "hello@mindsovermatter.io",
+  "foundingDate": "2022",
+  "areaServed": "United States",
+  "serviceType": ["Diligence", "Strategy", "Advisory", "Experience & Outcomes"]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,300;1,6..72,400&family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F2EEE3;
+    --paper-2:#E8E1D0;
+    --paper-3:#DED5BE;
+    --ink:#0E1A24;
+    --ink-2:#1B2A36;
+    --muted:#5C6770;
+    --rule:#C9BFA9;
+    --rule-soft:#E2DBC9;
+    --forest:#1F3B2D;
+    --forest-2:#2E5440;
+    --sage:#8FB39C;
+    --clay:#B58A5E;
+    --clay-soft:#E9D8BE;
+    --rust:#A8553B;
+    --ochre:#C99B4A;
+    --max:1320px;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:"Geist", ui-sans-serif, system-ui, sans-serif;
+    font-weight:400;
+    font-size:16px;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+    overflow-x:hidden;
+    position:relative;
+  }
+  /* paper grain — global SVG fiber texture, very subtle */
+  body::before{
+    content:""; position:fixed; inset:0; z-index:0; pointer-events:none;
+    background-image:
+      url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240' viewBox='0 0 240 240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.05  0 0 0 0 0.10  0 0 0 0 0.14  0 0 0 0.55 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/></svg>");
+    background-size: 240px 240px;
+    opacity: 0.55;
+    mix-blend-mode: multiply;
+  }
+  /* warm vignette to feel like paper edge */
+  body::after{
+    content:""; position:fixed; inset:0; z-index:0; pointer-events:none;
+    background:
+      radial-gradient(120% 90% at 50% 0%, rgba(201,155,74,0.05), transparent 55%),
+      radial-gradient(120% 110% at 50% 110%, rgba(168,85,59,0.04), transparent 55%);
+  }
+  .serif{font-family:"Newsreader", "Times New Roman", serif; font-weight:300; letter-spacing:-0.01em;}
+  .mono{font-family:"Geist Mono", ui-monospace, monospace; font-size:11px; letter-spacing:0.14em; text-transform:uppercase;}
+  .wrap{max-width:var(--max); margin:0 auto; padding:0 40px;}
+  @media (max-width:720px){ .wrap{padding:0 22px} }
+
+  /* dot grid backdrop */
+  .grid-bg{
+    position:fixed; inset:0; z-index:0; pointer-events:none;
+    background-image: radial-gradient(rgba(14,26,36,0.07) 1px, transparent 1px);
+    background-size: 28px 28px;
+    background-position: 0 0;
+    mask-image: linear-gradient(180deg, transparent, #000 12%, #000 88%, transparent);
+  }
+
+  /* fabric weave (used on dark sections) */
+  .weave-bg{
+    position:absolute; inset:0; pointer-events:none; z-index:0;
+    background-image:
+      repeating-linear-gradient(0deg, rgba(244,241,234,0.045) 0 1px, transparent 1px 4px),
+      repeating-linear-gradient(90deg, rgba(244,241,234,0.045) 0 1px, transparent 1px 4px),
+      url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='1.1' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.95  0 0 0 0 0.94  0 0 0 0 0.91  0 0 0 0.18 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+    background-size: auto, auto, 200px 200px;
+    mix-blend-mode: screen;
+    opacity: 0.55;
+  }
+
+  /* HEADER */
+  header.nav{
+    position:sticky; top:0; z-index:50;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background: color-mix(in oklab, var(--paper) 82%, transparent);
+    border-bottom:1px solid transparent;
+    transition: border-color .3s ease, background .3s ease;
+  }
+  header.nav.scrolled{ border-bottom-color: var(--rule-soft); }
+  .nav-inner{
+    display:flex; align-items:center; justify-content:space-between;
+    height:78px;
+  }
+  .logo{
+    display:flex; align-items:center; gap:14px;
+    text-decoration:none; color:var(--ink);
+  }
+  .logo-mark{
+    width:34px; height:34px; position:relative;
+  }
+  .logo-mark svg{display:block; width:100%; height:100%;}
+  .logo-text{
+    font-family:"Newsreader", serif;
+    font-weight:400;
+    font-size:19px;
+    letter-spacing:-0.01em;
+  }
+  .logo-text em{font-style:italic; color:var(--forest);}
+  nav.primary{display:flex; gap:38px;}
+  nav.primary a{
+    color:var(--ink); text-decoration:none;
+    font-size:14px; font-weight:400;
+    position:relative; padding:6px 0;
+    transition: color .2s ease;
+  }
+  nav.primary a::after{
+    content:""; position:absolute; left:0; right:0; bottom:0;
+    height:1px; background:var(--ink);
+    transform:scaleX(0); transform-origin:right;
+    transition: transform .35s cubic-bezier(.7,0,.2,1);
+  }
+  nav.primary a:hover::after{ transform:scaleX(1); transform-origin:left; }
+  .cta{
+    display:inline-flex; align-items:center; gap:10px;
+    padding:11px 18px 11px 20px;
+    background:var(--ink); color:var(--paper);
+    border:1px solid var(--ink);
+    border-radius:999px;
+    font-size:13.5px; font-weight:400;
+    text-decoration:none; cursor:pointer;
+    transition: background .25s ease, color .25s ease, transform .25s ease;
+  }
+  .cta:hover{ background:transparent; color:var(--ink); }
+  .cta .dot{
+    width:6px; height:6px; border-radius:999px; background:var(--paper);
+    transition: background .25s ease, transform .35s ease;
+  }
+  .cta:hover .dot{ background:var(--forest); transform:scale(1.4); }
+  .cta.ghost{ background:transparent; color:var(--ink); }
+  .cta.ghost:hover{ background:var(--ink); color:var(--paper); }
+  .cta.ghost .dot{ background:var(--ink); }
+  .cta.ghost:hover .dot{ background:var(--paper); }
+
+  .menu-btn{display:none; background:none; border:0; padding:8px; cursor:pointer;}
+  @media (max-width:880px){
+    nav.primary, header .cta{display:none}
+    .menu-btn{display:block}
+  }
+
+  /* HERO */
+  .hero{
+    position:relative;
+    padding: 90px 0 120px;
+  }
+  .hero-eyebrow{
+    display:flex; align-items:center; gap:14px;
+    color:var(--muted); margin-bottom:42px;
+  }
+  .hero-eyebrow .line{flex:0 0 56px; height:1px; background:var(--rule);}
+  .hero h1{
+    font-family:"Newsreader", serif;
+    font-weight:300;
+    font-size: clamp(44px, 6.6vw, 96px);
+    line-height: 1.02;
+    letter-spacing:-0.025em;
+    margin:0 0 36px;
+    max-width: 17ch;
+  }
+  .hero h1 em{
+    font-style: italic;
+    color: var(--rust);
+    font-weight: 300;
+  }
+  .hero-row{
+    display:grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 64px;
+    align-items:end;
+    margin-top: 60px;
+  }
+  @media (max-width:880px){ .hero-row{grid-template-columns:1fr; gap:36px;} }
+  .hero-sub{
+    font-size: 18px;
+    line-height:1.55;
+    color: var(--ink-2);
+    max-width: 52ch;
+  }
+  .hero-actions{
+    display:flex; gap:14px; align-items:center; flex-wrap:wrap;
+    justify-content:flex-end;
+  }
+  @media (max-width:880px){ .hero-actions{justify-content:flex-start;} }
+  .hero-foot{
+    margin-top: 70px;
+    display:flex; align-items:center; justify-content:space-between;
+    border-top:1px solid var(--rule-soft);
+    padding-top: 22px;
+    color: var(--muted);
+    font-size: 13px;
+    gap: 22px; flex-wrap:wrap;
+  }
+  .hero-foot .small{font-style: italic; font-family:"Newsreader", serif; font-weight:300; font-size:15px; color:var(--ink-2);}
+
+  /* hero illustration — abstract patient journey */
+  .journey{
+    position:relative;
+    height: 280px;
+    margin-top: 56px;
+    border-top:1px solid var(--rule-soft);
+    border-bottom:1px solid var(--rule-soft);
+    overflow:hidden;
+  }
+  .journey svg{position:absolute; inset:0; width:100%; height:100%;}
+  .journey .label{
+    position:absolute;
+    color:var(--muted);
+  }
+  .journey .l1{ top:18px; left:4%; }
+  .journey .l2{ top:18px; left:30%; }
+  .journey .l3{ top:18px; left:56%; }
+  .journey .l4{ top:18px; right:4%; text-align:right; }
+  .journey .node{
+    position:absolute; width:10px; height:10px; border-radius:999px;
+    background: var(--paper); border:1px solid var(--ink);
+    transform: translate(-50%,-50%);
+  }
+  .journey .node.filled{ background:var(--forest); border-color:var(--forest); }
+
+  /* SECTIONS */
+  section.bk{ position:relative; padding: 120px 0; }
+  .sec-num{
+    display:flex; align-items:center; gap:14px;
+    color:var(--muted); margin-bottom:36px;
+  }
+  .sec-num .line{flex:0 0 40px; height:1px; background:var(--clay);}
+  .sec-head{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items:start;
+  }
+  @media (max-width:880px){ .sec-head{grid-template-columns:1fr; gap:24px;} }
+  .sec-head h2{
+    font-family:"Newsreader", serif;
+    font-weight:300;
+    font-size: clamp(34px, 4.4vw, 60px);
+    line-height: 1.06;
+    letter-spacing:-0.02em;
+    margin:0;
+    max-width: 16ch;
+  }
+  .sec-head h2 em{font-style:italic; color:var(--rust); font-weight:300;}
+  .sec-head .lede{
+    font-size: 17px;
+    color: var(--ink-2);
+    max-width: 52ch;
+    line-height:1.6;
+  }
+
+  /* SERVICES */
+  .services{
+    margin-top: 80px;
+    border-top:1px solid var(--rule-soft);
+  }
+  .service{
+    display:grid;
+    grid-template-columns: 80px 1fr 1.6fr 60px;
+    gap: 36px;
+    padding: 36px 0;
+    border-bottom:1px solid var(--rule-soft);
+    align-items:start;
+    cursor:pointer;
+    position:relative;
+    transition: padding .35s cubic-bezier(.7,0,.2,1);
+    text-decoration:none;
+    color: inherit;
+  }
+  .service::before{
+    content:""; position:absolute; left:0; right:0; top:0; bottom:0;
+    background: linear-gradient(180deg, transparent, rgba(31,59,45,0.03));
+    opacity:0; transition: opacity .35s ease;
+    pointer-events:none;
+  }
+  .service:hover{ padding-left: 14px; padding-right: 14px; }
+  .service:hover::before{ opacity:1; }
+  .service .num{ color:var(--muted); }
+  .service h3{
+    font-family:"Newsreader", serif;
+    font-weight:400;
+    font-size: 30px;
+    letter-spacing:-0.02em;
+    margin:0 0 6px;
+    line-height:1.1;
+  }
+  .service h3 em{font-style:italic; color:var(--rust); font-weight:300;}
+  .service p{
+    margin:8px 0 0;
+    color:var(--ink-2);
+    font-size:15.5px;
+    line-height:1.6;
+    max-width: 60ch;
+  }
+  .service .arrow{
+    width:36px; height:36px; border-radius:999px;
+    border:1px solid var(--rule);
+    display:flex; align-items:center; justify-content:center;
+    color:var(--ink); justify-self:end;
+    transition: background .3s ease, border-color .3s ease, transform .3s ease;
+  }
+  .service:hover .arrow{ background:var(--ink); border-color:var(--ink); color:var(--paper); transform: rotate(-45deg); }
+  @media (max-width:880px){
+    .service{grid-template-columns: 50px 1fr; gap: 16px;}
+    .service .arrow, .service .desc-col{grid-column: 1 / -1;}
+    .service .arrow{justify-self:start;}
+  }
+
+  /* WHY */
+  .why{
+    background:
+      radial-gradient(120% 80% at 100% 0%, rgba(46,84,64,0.55), transparent 60%),
+      radial-gradient(120% 80% at 0% 100%, rgba(168,85,59,0.18), transparent 60%),
+      var(--ink);
+    color: var(--paper);
+    margin-top: 60px;
+    padding: 130px 0;
+    position:relative;
+    overflow:hidden;
+  }
+  .why .grid-bg{
+    background-image: radial-gradient(rgba(244,241,234,0.07) 1px, transparent 1px);
+  }
+  .why .sec-num, .why .sec-num .line{ color: rgba(244,241,234,0.55); }
+  .why .sec-num .line{background: rgba(244,241,234,0.25);}
+  .why .sec-head h2 em{ color: #8FB39C; }
+  .why .sec-head .lede{ color: rgba(244,241,234,0.78); }
+  .why-list{
+    margin-top: 70px;
+    border-top:1px solid rgba(244,241,234,0.14);
+  }
+  .why-item{
+    display:grid;
+    grid-template-columns: 80px 1fr auto;
+    gap: 24px; align-items:center;
+    padding: 24px 0;
+    border-bottom:1px solid rgba(244,241,234,0.14);
+    font-family:"Newsreader", serif;
+    font-weight:300;
+    font-size: 26px;
+    letter-spacing:-0.01em;
+    line-height:1.2;
+  }
+  .why-item .n{
+    font-family:"Geist Mono", monospace; font-size:11px; letter-spacing:0.14em;
+    color: rgba(244,241,234,0.45); text-transform:uppercase;
+  }
+  .why-item .marker{
+    width:8px; height:8px; border-radius:999px; background: #8FB39C;
+    opacity:0; transform: translateX(-10px);
+    transition: opacity .35s ease, transform .35s ease;
+  }
+  .why-item:hover .marker{ opacity:1; transform: translateX(0); }
+  @media (max-width:720px){ .why-item{ font-size:20px; grid-template-columns: 50px 1fr auto; gap: 14px; } }
+
+  /* FIT */
+  .fit{
+    padding: 130px 0;
+    border-top:1px solid var(--rule-soft);
+    background:
+      radial-gradient(80% 60% at 80% 30%, rgba(201,155,74,0.10), transparent 60%),
+      radial-gradient(70% 60% at 10% 90%, rgba(143,179,156,0.10), transparent 60%);
+    position:relative;
+  }
+  .fit::before{
+    content:""; position:absolute; inset:0; pointer-events:none;
+    background-image:
+      url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180' viewBox='0 0 180 180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.40  0 0 0 0 0.27  0 0 0 0 0.13  0 0 0 0.18 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+    background-size: 180px 180px;
+    mix-blend-mode: multiply;
+    opacity: 0.55;
+  }
+  .fit > .wrap{ position:relative; }
+  .fit-head{
+    display:grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items:start;
+  }
+  @media (max-width:880px){ .fit-head{grid-template-columns:1fr; gap:24px;} }
+  .fit-quote{
+    margin-top: 80px;
+    padding: 48px 0 56px;
+    border-top:1px solid var(--rule-soft);
+    border-bottom:1px solid var(--rule-soft);
+    display:grid;
+    grid-template-columns: 80px 1fr;
+    gap: 36px;
+    align-items:start;
+  }
+  @media (max-width:720px){ .fit-quote{grid-template-columns: 1fr; gap:18px; padding: 36px 0;} }
+  .fit-quote .qmark{
+    font-family:"Newsreader", serif; font-weight:300;
+    font-size: 128px; line-height: 0.7;
+    color: var(--rust); font-style: italic;
+    user-select:none;
+  }
+  .fit-quote blockquote{
+    margin:0;
+    font-family:"Newsreader", serif; font-weight:300;
+    font-size: clamp(26px, 3.4vw, 42px);
+    line-height: 1.18;
+    letter-spacing:-0.018em;
+    color: var(--ink);
+    max-width: 26ch;
+  }
+  .fit-quote blockquote em{ font-style: italic; color: var(--rust); font-weight:300;}
+  .fit-quote cite{
+    display:block; margin-top: 28px;
+    font-style: normal;
+    font-family:"Geist Mono", monospace; font-size: 11px; letter-spacing: 0.14em;
+    text-transform:uppercase; color: var(--muted);
+  }
+  .fit-foot{
+    margin-top: 36px;
+    display:grid; grid-template-columns: repeat(3, 1fr); gap: 0;
+  }
+  @media (max-width:720px){ .fit-foot{grid-template-columns:1fr;} }
+  .fit-foot > div{
+    padding: 22px 24px 22px 0;
+    border-right:1px solid var(--rule-soft);
+  }
+  .fit-foot > div:last-child{ border-right:0; }
+  .fit-foot .k{
+    font-family:"Newsreader", serif; font-weight:400;
+    font-size: 22px; letter-spacing:-0.01em;
+    color: var(--ink); margin-bottom: 6px;
+  }
+  .fit-foot .k em{ font-style: italic; color: var(--forest); font-weight:300; }
+  .fit-foot .v{
+    color: var(--muted); font-size: 14.5px; line-height: 1.55;
+  }
+  @media (max-width:720px){
+    .fit-foot > div{ border-right:0; border-bottom:1px solid var(--rule-soft); padding: 18px 0; }
+    .fit-foot > div:last-child{ border-bottom:0; }
+  }
+
+  /* APPROACH */
+  .approach-cols{
+    margin-top: 80px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    border-top:1px solid var(--rule-soft);
+    border-bottom:1px solid var(--rule-soft);
+  }
+  @media (max-width:880px){ .approach-cols{grid-template-columns:1fr;} }
+  .approach-col{
+    padding: 50px 40px 60px;
+    border-right:1px solid var(--rule-soft);
+    position:relative;
+    transition: background .35s ease;
+  }
+  .approach-col:last-child{ border-right:0; }
+  .approach-col:hover{ background: var(--paper-2); }
+  @media (max-width:880px){
+    .approach-col{ border-right:0; border-bottom:1px solid var(--rule-soft); padding: 36px 0; }
+    .approach-col:last-child{ border-bottom:0; }
+  }
+  .approach-col .step{
+    color:var(--muted);
+    margin-bottom: 36px;
+    display:flex; align-items:center; gap:10px;
+  }
+  .approach-col h4{
+    font-family:"Newsreader", serif;
+    font-weight:400;
+    font-size: 36px;
+    letter-spacing:-0.02em;
+    margin: 0 0 18px;
+  }
+  .approach-col h4 em{font-style:italic; color:var(--rust); font-weight:300;}
+  .approach-col p{
+    margin:0; color:var(--ink-2); font-size:15px; line-height:1.6;
+    max-width: 30ch;
+  }
+  .approach-icon{
+    margin-bottom: 28px; height:48px;
+  }
+  .approach-icon svg{height:100%; display:block;}
+
+  /* ABOUT */
+  .about-grid{
+    margin-top: 80px;
+    display:grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    align-items:start;
+    max-width: 920px;
+  }
+  @media (max-width:880px){ .about-grid{grid-template-columns:1fr; gap:36px;} }
+  .portrait{
+    aspect-ratio: 4/5;
+    background: var(--paper-2);
+    border:1px solid var(--rule-soft);
+    position:relative;
+    overflow:hidden;
+  }
+  .portrait::before{
+    content:""; position:absolute; inset:0;
+    background-image: repeating-linear-gradient(135deg, rgba(14,26,36,0.05) 0 1px, transparent 1px 14px);
+  }
+  .portrait .tag{
+    position:absolute; left:18px; bottom:18px;
+    color:var(--muted); background: color-mix(in oklab, var(--paper) 80%, transparent);
+    padding: 6px 10px; border:1px solid var(--rule-soft);
+  }
+  .about-body p{
+    font-size: 17px; color: var(--ink-2); line-height:1.65;
+    max-width: 56ch;
+  }
+  .about-body .bio{
+    margin-top: 28px; padding-top:28px;
+    border-top:1px solid var(--rule-soft);
+    color: var(--muted); font-size: 14.5px;
+    font-style: italic;
+    font-family:"Newsreader", serif;
+    font-weight:300;
+  }
+  .credentials{
+    margin-top: 36px;
+    display:grid; grid-template-columns: repeat(3, 1fr);
+    border-top:1px solid var(--rule-soft);
+  }
+  .credentials > div{
+    padding: 22px 0; border-right:1px solid var(--rule-soft);
+    padding-right:18px;
+  }
+  .credentials > div:last-child{border-right:0;}
+  .credentials .num{
+    font-family:"Newsreader", serif; font-weight:300;
+    font-size: 38px; letter-spacing:-0.02em;
+    color:var(--rust);
+  }
+  .credentials .lab{ color:var(--muted); margin-top:6px; }
+  @media (max-width:720px){ .credentials{grid-template-columns:1fr; }
+    .credentials > div{border-right:0; border-bottom:1px solid var(--rule-soft); padding-right:0;}
+    .credentials > div:last-child{border-bottom:0;}
+  }
+
+  /* CLOSING */
+  .closing{
+    padding: 160px 0 140px;
+    border-top:1px solid var(--rule-soft);
+    text-align: left;
+    position:relative;
+  }
+  .closing h2{
+    font-family:"Newsreader", serif; font-weight:300;
+    font-size: clamp(48px, 7vw, 110px);
+    line-height: 1;
+    letter-spacing:-0.03em;
+    margin: 0 0 40px;
+    max-width: 14ch;
+  }
+  .closing h2 em{font-style:italic; color:var(--rust); font-weight:300;}
+  .closing-row{
+    display:grid; grid-template-columns: 1.4fr 1fr;
+    gap: 64px; align-items:end;
+  }
+  @media (max-width:880px){ .closing-row{grid-template-columns:1fr; gap:36px;} }
+  .closing p{ font-size: 17px; color: var(--ink-2); max-width: 52ch; line-height:1.6; }
+  .closing-cta{
+    display:flex; flex-direction:column; gap: 14px; align-items:flex-start;
+  }
+  .big-cta{
+    display:inline-flex; align-items:center; justify-content:space-between;
+    gap: 28px; min-width: 280px;
+    padding: 22px 26px;
+    background: var(--ink); color: var(--paper);
+    text-decoration:none; border-radius: 4px;
+    font-family:"Newsreader", serif; font-weight:300;
+    font-size: 22px; letter-spacing:-0.01em;
+    transition: background .3s ease, transform .3s ease;
+  }
+  .big-cta:hover{ background: var(--forest); }
+  .big-cta .arc{
+    width:34px; height:34px; border-radius:999px;
+    background: var(--paper); color: var(--ink);
+    display:flex; align-items:center; justify-content:center;
+    transition: transform .35s cubic-bezier(.7,0,.2,1);
+  }
+  .big-cta:hover .arc{ transform: rotate(-45deg); }
+
+  /* FOOTER */
+  footer{
+    border-top:1px solid var(--rule-soft);
+    padding: 60px 0 40px;
+    color: var(--muted);
+    font-size: 14px;
+  }
+  .foot-grid{
+    display:grid; grid-template-columns: 1.6fr 1fr 1fr 1fr;
+    gap: 40px; align-items:start;
+  }
+  @media (max-width:880px){ .foot-grid{grid-template-columns:1fr 1fr; gap:30px;} }
+  .foot-grid .brand{
+    color:var(--ink);
+  }
+  .foot-grid .brand .name{
+    font-family:"Newsreader", serif; font-size:22px; font-weight:400;
+    letter-spacing:-0.01em; margin-bottom:8px;
+  }
+  .foot-grid .brand .name em{font-style:italic; color:var(--forest); font-weight:300;}
+  .foot-grid .brand .desc{ color:var(--muted); font-size:14px; max-width:36ch; line-height:1.55; }
+  .foot-col h5{
+    margin:0 0 16px; color:var(--muted);
+    font-family:"Geist Mono", monospace; font-size:11px; letter-spacing:0.14em;
+    text-transform:uppercase; font-weight:500;
+  }
+  .foot-col a{
+    display:block; color:var(--ink); text-decoration:none;
+    padding:6px 0; font-size:14.5px;
+    transition: color .2s ease;
+  }
+  .foot-col a:hover{ color:var(--forest); }
+  .foot-bot{
+    margin-top: 60px; padding-top:24px;
+    border-top:1px solid var(--rule-soft);
+    display:flex; justify-content:space-between; gap:20px; flex-wrap:wrap;
+    color:var(--muted); font-size:13px;
+  }
+
+  /* reveal */
+  .reveal{ opacity:0; transform: translateY(18px); transition: opacity .9s ease, transform .9s cubic-bezier(.2,.7,.2,1); }
+  .reveal.in{ opacity:1; transform:none; }
+  .reveal-d2{ transition-delay:.08s; }
+  .reveal-d3{ transition-delay:.16s; }
+  .reveal-d4{ transition-delay:.24s; }
+
+  /* path draw */
+  .draw path.path-line{
+    stroke-dasharray: 1400;
+    stroke-dashoffset: 1400;
+    transition: stroke-dashoffset 2.4s cubic-bezier(.5,0,.2,1);
+  }
+  .draw.in path.path-line{ stroke-dashoffset: 0; }
+
+  /* nav indicator dot */
+  .now-mark{
+    display:flex; align-items:center; gap:10px;
+    color:var(--muted);
+  }
+  .now-mark .pulse{
+    width:7px; height:7px; border-radius:999px; background:#3a8f6b; position:relative;
+  }
+  .now-mark .pulse::after{
+    content:""; position:absolute; inset:-4px; border-radius:999px;
+    background: rgba(58,143,107,0.3);
+    animation: pulse 2.2s ease-out infinite;
+  }
+  @keyframes pulse{ 0%{transform:scale(.6); opacity:1;} 100%{transform:scale(2.3); opacity:0;} }
+
+  /* mobile menu */
+  .m-menu{
+    position:fixed; inset:0; background: var(--paper);
+    z-index:60; padding: 32px 22px;
+    display:none; flex-direction:column;
+  }
+  .m-menu.open{display:flex;}
+  .m-menu .top{ display:flex; justify-content:space-between; align-items:center; margin-bottom:60px; }
+  .m-menu a{
+    color:var(--ink); text-decoration:none;
+    font-family:"Newsreader", serif; font-weight:300;
+    font-size: 44px; letter-spacing:-0.02em;
+    padding: 10px 0; border-bottom:1px solid var(--rule-soft);
+  }
+
+  /* respect reduced motion preferences */
+  @media (prefers-reduced-motion: reduce) {
+    .reveal { opacity: 1 !important; transform: none !important; transition: none !important; }
+    .draw path.path-line { stroke-dashoffset: 0 !important; transition: none !important; }
+    html { scroll-behavior: auto; }
+    .now-mark .pulse::after { animation: none !important; }
+    *, *::before, *::after { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+  }
+
+  /* keyboard focus styles */
+  a:focus-visible, button:focus-visible {
+    outline: 2px solid var(--forest);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+</style>
+<noscript><style>.reveal{opacity:1 !important;transform:none !important;}.draw path.path-line{stroke-dashoffset:0 !important;}</style></noscript>
+</head>
+<body>
+
+<div class="grid-bg"></div>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-inner">
+    <a href="#top" class="logo" aria-label="Minds Over Matter">
+      <span class="logo-mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" fill="none">
+          <circle cx="20" cy="20" r="18" stroke="#0E1A24" stroke-width="1"/>
+          <path d="M6 22 C 12 22, 14 12, 20 12 C 26 12, 28 28, 34 22" stroke="#1F3B2D" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+          <circle cx="20" cy="20" r="2" fill="#1F3B2D"/>
+        </svg>
+      </span>
+      <span class="logo-text">Minds <em>Over</em> Matter</span>
+    </a>
+    <nav class="primary" aria-label="primary">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#approach">Approach</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="cta" href="#contact">
+      <span class="dot"></span>
+      Start a Conversation
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+      <svg width="22" height="22" viewBox="0 0 22 22"><path d="M3 7h16M3 15h16" stroke="#0E1A24" stroke-width="1.2"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="m-menu" id="mMenu">
+  <div class="top">
+    <span class="logo-text">Minds <em style="color:#1F3B2D; font-style:italic">Over</em> Matter</span>
+    <button class="menu-btn" id="menuClose" aria-label="Close menu" style="display:block">
+      <svg width="22" height="22" viewBox="0 0 22 22"><path d="M5 5l12 12M17 5L5 17" stroke="#0E1A24" stroke-width="1.2"/></svg>
+    </button>
+  </div>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#approach">Approach</a>
+  <a href="#contact">Contact</a>
+  <a href="#contact" style="margin-top:auto; font-size:18px; border:0; color:var(--muted); font-family:Geist, sans-serif;">→ Start a Conversation</a>
+</div>
+
+<main id="top" style="position:relative; z-index:1;">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-eyebrow mono reveal">
+        <span class="line"></span>
+        <span>Healthcare services advisory</span>
+        <span class="line" style="flex:1; max-width:140px"></span>
+      </div>
+
+      <h1 class="reveal">
+        Keeping <em>what matters</em> in mind.
+      </h1>
+
+      <div class="hero-row">
+        <p class="hero-sub serif reveal reveal-d2" style="font-family:'Newsreader',serif; font-weight:300; font-size:22px; line-height:1.45;">
+          Grounded in all sides of the equation, patient, provider, and payer, our focus is better systems, better experiences, and better outcomes. 
+        </p>
+        <div class="hero-actions reveal reveal-d3">
+          <a class="cta" href="#contact"><span class="dot"></span>Start a Conversation</a>
+          <a class="cta ghost" href="#services"><span class="dot"></span>Explore Services</a>
+        </div>
+      </div>
+
+      <div class="hero-foot reveal reveal-d4">
+        <div class="small">Built for work where the stakes are clinical, operational, financial, and human.</div>
+        <div class="mono">MOM · Est. 2022 · Healthcare Services</div>
+      </div>
+
+      <!-- patient journey illustration -->
+      <div class="journey reveal draw" id="journeySvg">
+        <span class="label mono l1">Diligence</span>
+        <span class="label mono l2">Strategy</span>
+        <span class="label mono l3">Advisory</span>
+        <span class="label mono l4">Outcomes</span>
+        <svg viewBox="0 0 1200 280" preserveAspectRatio="none">
+          <defs>
+            <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+              <circle cx="1" cy="1" r="0.7" fill="rgba(14,26,36,0.18)"/>
+            </pattern>
+          </defs>
+          <rect width="1200" height="280" fill="url(#dots)" opacity="0.6"/>
+          <path class="path-line"
+                d="M 40 200 C 180 200, 220 80, 360 80 S 540 220, 700 180 S 920 60, 1160 130"
+                stroke="#1F3B2D" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+          <circle cx="40" cy="200" r="5" fill="#0E1A24"/>
+          <circle cx="360" cy="80" r="5" fill="#F4F1EA" stroke="#0E1A24" stroke-width="1.2"/>
+          <circle cx="700" cy="180" r="5" fill="#F4F1EA" stroke="#0E1A24" stroke-width="1.2"/>
+          <circle cx="1160" cy="130" r="5" fill="#1F3B2D"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTRO -->
+  <section class="bk" id="intro">
+    <div class="wrap">
+      <div class="sec-num mono reveal"><span class="line"></span><span>01 / Positioning</span></div>
+      <div class="sec-head">
+        <h2 class="reveal">Clear thinking for <em>complex</em> healthcare decisions.</h2>
+        <p class="lede reveal reveal-d2">
+          Healthcare is never just a market. It is a system of unique people with unique opportunities, workflows, constraints, and outcomes. We bring a disciplined, practical, and deeply human perspective to healthcare services strategy, helping organizations understand what matters, where value lives, and how to move with confidence without drifting from their mission.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="bk" id="services" style="padding-top:40px;">
+    <div class="wrap">
+      <div class="sec-num mono reveal"><span class="line"></span><span>02 / Services</span></div>
+      <div class="sec-head">
+        <h2 class="reveal">Across the healthcare services <em>lifecycle</em>.</h2>
+        <p class="lede reveal reveal-d2">
+          Four practice areas, applied independently or together, sized to the decision, not the deck.
+        </p>
+      </div>
+
+      <div class="services">
+        <a class="service reveal" href="mailto:hello@mindsovermatter.io?subject=Inquiry%20%E2%80%94%20Diligence" aria-label="Inquire about Diligence">
+          <div class="num mono">01</div>
+          <h3>Diligence</h3>
+          <div class="desc-col">
+            <p>Assess healthcare services opportunities with a clear view of the market, operating realities, patient needs, growth potential, risks, and value levers.</p>
+          </div>
+          <div class="arrow" aria-hidden="true">
+            <svg width="14" height="14" viewBox="0 0 14 14"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.2" fill="none"/></svg>
+          </div>
+        </a>
+
+        <a class="service reveal" href="mailto:hello@mindsovermatter.io?subject=Inquiry%20%E2%80%94%20Strategy" aria-label="Inquire about Strategy">
+          <div class="num mono">02</div>
+          <h3>Strategy</h3>
+          <div class="desc-col">
+            <p>Translate complexity into focused strategic direction — from market entry and growth planning to service line strategy, competitive positioning, and operating priorities.</p>
+          </div>
+          <div class="arrow" aria-hidden="true">
+            <svg width="14" height="14" viewBox="0 0 14 14"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.2" fill="none"/></svg>
+          </div>
+        </a>
+
+        <a class="service reveal" href="mailto:hello@mindsovermatter.io?subject=Inquiry%20%E2%80%94%20Advisory" aria-label="Inquire about Advisory">
+          <div class="num mono">03</div>
+          <h3>Advisory</h3>
+          <div class="desc-col">
+            <p>Support leaders, investors, and teams with practical guidance rooted in healthcare experience, sound judgment, and an understanding of what it takes to execute.</p>
+          </div>
+          <div class="arrow" aria-hidden="true">
+            <svg width="14" height="14" viewBox="0 0 14 14"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.2" fill="none"/></svg>
+          </div>
+        </a>
+
+        <a class="service reveal" href="mailto:hello@mindsovermatter.io?subject=Inquiry%20%E2%80%94%20Experience%20%26%20Outcomes" aria-label="Inquire about Experience and Outcomes">
+          <div class="num mono">04</div>
+          <h3><em>Experience</em> &amp; Outcomes</h3>
+          <div class="desc-col">
+            <p>Evaluate how care delivery, access, engagement, workflows, and systems shape experience — and how better design can improve outcomes across the continuum of care.</p>
+          </div>
+          <div class="arrow" aria-hidden="true">
+            <svg width="14" height="14" viewBox="0 0 14 14"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.2" fill="none"/></svg>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY -->
+  <section class="bk why" id="why">
+    <div class="weave-bg"></div>
+    <div class="grid-bg" style="position:absolute;"></div>
+    <div class="wrap" style="position:relative;">
+      <div class="sec-num mono reveal"><span class="line"></span><span>03 / Why Minds Over Matter</span></div>
+      <div class="sec-head">
+        <h2 class="reveal">Healthcare is a systems problem. <em>It is also a human one.</em></h2>
+        <p class="lede reveal reveal-d2">
+          The best healthcare decisions balance evidence, economics, operations, and empathy. Minds Over Matter is built on the belief that durable healthcare value comes from aligning business strategy with patient needs, provider realities, and measurable outcomes.
+        </p>
+      </div>
+
+      <div class="why-list">
+        <div class="why-item reveal"><span class="n">i</span><span>Patient-centered perspective</span><span class="marker"></span></div>
+        <div class="why-item reveal"><span class="n">ii</span><span>Operator-aware strategy</span><span class="marker"></span></div>
+        <div class="why-item reveal"><span class="n">iii</span><span>Diligence grounded in real-world healthcare dynamics</span><span class="marker"></span></div>
+        <div class="why-item reveal"><span class="n">iv</span><span>Focus on outcomes, experience, and sustainable growth</span><span class="marker"></span></div>
+        <div class="why-item reveal"><span class="n">v</span><span>Clear recommendations, not unnecessary complexity</span><span class="marker"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FIT -->
+  <section class="bk fit" id="fit">
+    <div class="wrap">
+      <div class="sec-num mono reveal"><span class="line"></span><span>04 / Fit</span></div>
+      <div class="fit-head">
+        <h2 class="reveal" style="font-family:'Newsreader',serif; font-weight:300; font-size:clamp(34px, 4.4vw, 60px); line-height:1.06; letter-spacing:-0.02em; margin:0; max-width:18ch;">
+          The right partner is a <em>fit</em> &mdash; not a pitch.
+        </h2>
+        <p class="lede reveal reveal-d2" style="font-size:17px; color:var(--ink-2); max-width:52ch; line-height:1.6;">
+          Many advisors talk a good game. The quieter, more important question is whether the working relationship will hold up when the stakes are real. Fit is what allows trust to form, candor to flow, and good decisions to follow.
+        </p>
+      </div>
+
+      <figure class="fit-quote reveal">
+        <span class="qmark" aria-hidden="true">&ldquo;</span>
+        <div>
+          <blockquote>
+            Some understandings in healthcare cannot be taught. They have to be <em>lived</em>.
+          </blockquote>
+          <cite></cite>
+        </div>
+      </figure>
+
+      <div class="fit-foot">
+        <div class="reveal">
+          <div class="k"><em>Trust</em>, earned in the work</div>
+          <div class="v">Built through candor, follow-through, and the willingness to say what is hard.</div>
+        </div>
+        <div class="reveal reveal-d2">
+          <div class="k">Fit before <em>fee</em></div>
+          <div class="v">Engagements only begin when both sides believe the work is the right work, together.</div>
+        </div>
+        <div class="reveal reveal-d3">
+          <div class="k">Lived <em>experience</em></div>
+          <div class="v">The kind of understanding that only comes from being on every side of care &mdash; as clinicians, as caregivers, as patients walking through a diagnosis of our own.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPROACH -->
+  <section class="bk" id="approach">
+    <div class="wrap">
+      <div class="sec-num mono reveal"><span class="line"></span><span>05 / Approach</span></div>
+      <div class="sec-head">
+        <h2 class="reveal">Ask. <em>Think.</em> Be Human.</h2>
+        <p class="lede reveal reveal-d2">
+          A simple working method for complex problems designed to deliver judgment, not deliverables for their own sake. We are not perfect, but we will get close enough together.
+        </p>
+      </div>
+
+      <div class="approach-cols">
+        <div class="approach-col reveal">
+          <div class="approach-icon" aria-hidden="true">
+            <svg width="56" height="48" viewBox="0 0 56 48" fill="none">
+              <circle cx="14" cy="24" r="3" fill="#1F3B2D"/>
+              <circle cx="28" cy="14" r="3" fill="#0E1A24"/>
+              <circle cx="28" cy="34" r="3" fill="#0E1A24"/>
+              <circle cx="42" cy="24" r="3" fill="#0E1A24"/>
+              <path d="M14 24L28 14L42 24L28 34Z" stroke="#0E1A24" stroke-width="0.8" fill="none"/>
+              <path d="M14 24L42 24M28 14L28 34" stroke="#0E1A24" stroke-width="0.6" stroke-dasharray="2 3"/>
+            </svg>
+          </div>
+          <div class="step mono"><span>Step 01</span></div>
+          <h4>Understand</h4>
+          <p>Start with the full picture: market, model, stakeholders, incentives, risks, and the patient journey.</p>
+        </div>
+        <div class="approach-col reveal reveal-d2">
+          <div class="approach-icon" aria-hidden="true">
+            <svg width="56" height="48" viewBox="0 0 56 48" fill="none">
+              <circle cx="28" cy="24" r="20" stroke="#0E1A24" stroke-width="0.8" fill="none"/>
+              <circle cx="28" cy="24" r="12" stroke="#0E1A24" stroke-width="0.8" fill="none"/>
+              <circle cx="28" cy="24" r="5" fill="#1F3B2D"/>
+              <line x1="6" y1="24" x2="50" y2="24" stroke="#0E1A24" stroke-width="0.6"/>
+              <line x1="28" y1="2" x2="28" y2="46" stroke="#0E1A24" stroke-width="0.6"/>
+            </svg>
+          </div>
+          <div class="step mono"><span>Step 02</span></div>
+          <h4><em>Focus</em></h4>
+          <p>Separate signal from noise. Identify the few decisions that matter most.</p>
+        </div>
+        <div class="approach-col reveal reveal-d3">
+          <div class="approach-icon" aria-hidden="true">
+            <svg width="56" height="48" viewBox="0 0 56 48" fill="none">
+              <path d="M6 38 L 18 26 L 28 32 L 40 14 L 50 22" stroke="#0E1A24" stroke-width="1" fill="none"/>
+              <circle cx="6" cy="38" r="2.5" fill="#0E1A24"/>
+              <circle cx="18" cy="26" r="2.5" fill="#0E1A24"/>
+              <circle cx="28" cy="32" r="2.5" fill="#0E1A24"/>
+              <circle cx="40" cy="14" r="2.5" fill="#0E1A24"/>
+              <circle cx="50" cy="22" r="3" fill="#1F3B2D"/>
+            </svg>
+          </div>
+          <div class="step mono"><span>Step 03</span></div>
+          <h4>Advise</h4>
+          <p>Deliver clear, actionable guidance that helps teams move forward with confidence.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="bk" id="about">
+    <div class="wrap">
+      <div class="sec-num mono reveal"><span class="line"></span><span>06 / About</span></div>
+      <div class="sec-head">
+        <h2 class="reveal">A thoughtful advisory partner for <em>healthcare services.</em></h2>
+        <p class="lede reveal reveal-d2">
+          Minds Over Matter reflects our commitment to healthcare, patient and employee experience, outcomes, and the systems that shape care delivery. We bring a strategic and practical lens to healthcare services work grounded in heart, helping clients navigate complexity with clarity, rigor, and purpose, without losing sight of what's important.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-body reveal reveal-d2">
+          <p class="serif" style="font-family:'Newsreader',serif; font-weight:300; font-size:22px; line-height:1.5; color:var(--ink);">
+            Healthcare deserves advisors who take both the business and the bedside seriously. That belief shapes every engagement.
+          </p>
+          <p class="bio">
+            We are culture-first founders with experience on all sides of the equation &mdash; clinicians, operators, providers, architects, and builders who have also been caregivers, patients, and family members navigating our own challenges. Some things in this work cannot be learned in a classroom &mdash; only lived.
+          </p>
+
+          <div class="credentials">
+            <div>
+              <div class="num">20+</div>
+              <div class="lab mono">Years in healthcare</div>
+            </div>
+            <div>
+              <div class="num">4</div>
+              <div class="lab mono">Practice areas</div>
+            </div>
+            <div>
+              <div class="num">1:1</div>
+              <div class="lab mono">Principal-led</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLOSING -->
+  <section class="closing" id="contact">
+    <div class="wrap">
+      <div class="sec-num mono reveal"><span class="line"></span><span>07 / Contact</span></div>
+      <h2 class="reveal">Let's think through <em>what matters.</em></h2>
+      <div class="closing-row">
+        <p class="reveal reveal-d2">
+          Whether you are evaluating an opportunity, shaping a strategy, or working to improve the healthcare experience, Minds Over Matter can help bring clarity to the path ahead.
+        </p>
+        <div class="closing-cta reveal reveal-d3">
+          <a class="big-cta" href="mailto:hello@mindsovermatter.io">
+            Start a Conversation
+            <span class="arc" aria-hidden="true">
+              <svg width="14" height="14" viewBox="0 0 14 14"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.2" fill="none"/></svg>
+            </span>
+          </a>
+          <span class="mono" style="color:var(--muted)">Replies within two business days.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="brand">
+        <div class="name">Minds <em>Over</em> Matter</div>
+        <div class="desc">Healthcare services thought partners</div>
+      </div>
+      <div class="foot-col">
+        <h5>Site</h5>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#approach">Approach</a>
+      </div>
+      <div class="foot-col">
+        <h5>Contact</h5>
+        <a href="mailto:hello@mindsovermatter.io">hello@mindsovermatter.io</a>
+      </div>
+      <div class="foot-col">
+        <h5>Index</h5>
+        <a href="#intro">01 — Positioning</a>
+        <a href="#services">02 — Services</a>
+        <a href="#why">03 — Why MOM</a>
+        <a href="#fit">04 — Fit</a>
+        <a href="#approach">05 — Approach</a>
+        <a href="#about">06 — About</a>
+        <a href="#contact">07 — Contact</a>
+      </div>
+    </div>
+    <div class="foot-bot">
+      <span>© 2026 Minds Over Matter. All rights reserved.</span>
+      <span class="mono">Boutique advisory · Healthcare services</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // sticky border on scroll
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 8);
+  }, {passive:true});
+
+  // reveal on intersect
+  const io = new IntersectionObserver((entries)=>{
+    for (const e of entries){
+      if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }
+    }
+  }, {threshold: 0.12});
+  document.querySelectorAll('.reveal, .draw').forEach(el => io.observe(el));
+
+  // mobile menu
+  const m = document.getElementById('mMenu');
+  document.getElementById('menuBtn').addEventListener('click', ()=> m.classList.add('open'));
+  document.getElementById('menuClose').addEventListener('click', ()=> m.classList.remove('open'));
+  m.querySelectorAll('a').forEach(a => a.addEventListener('click', ()=> m.classList.remove('open')));
+</script>
+
+</body>
+</html>
+
 <meta name="description" content="Minds Over Matter is a boutique healthcare services advisory. Diligence, strategy, advisory, and experience &amp; outcomes work for operators, investors, and leaders." />
 <meta name="theme-color" content="#F2EEE3" />
 <link rel="canonical" href="https://mindsovermatter.io/" />
